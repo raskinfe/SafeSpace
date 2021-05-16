@@ -1,0 +1,141 @@
+body{
+	background: #d4dddd;;
+}
+
+.logo {
+	
+	float: left;
+    width: 90%;
+    background: white;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 25px;
+
+}
+
+.header {
+	font-size: 40px;
+	font-style: normal;
+	font-size-adjust: all;
+	margin-left:15px;
+	margin-right: 10px;
+}
+
+.welcome {
+	font-size-adjust: all;
+	font-size: 30px;
+	margin-left:	20px;
+	padding: 5px;
+	
+}
+
+.form{
+	
+	float: left;
+    width: 90%;
+    background: white;
+    margin-left: 5%;
+    margin-top: 30px;
+    height: 480px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+
+}
+
+input[type="password"] {
+
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	background-color: #f1f1f1;
+  	border-radius:25px;
+  	font-family: Arial, Helvetica;
+  	background: inherit;
+
+}
+
+input[type="text"] {
+
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	background-color: #f1f1f1;
+  	border-radius:25px;
+  	font-family: Arial, Helvetica;
+  	background: inherit;
+}
+
+#forget {
+
+	width: 200px;
+	margin-left: 110px;
+	border:none;
+	font-family: Arial, Helvetica;
+	font-style: normal;
+	background: none;
+}
+
+#logon {
+	width: 50%;
+	position: center;
+	padding: 12px 20px;
+	margin-left: 25%;
+
+	border-radius:25px;
+
+}
+
+#logon:hover{
+	background: green;
+}
+
+#signup {
+
+	width: 200px;
+	margin-left: 40px;
+	border:none;
+	font-family: Arial, Helvetica;
+	font-style: normal;
+	background: none;
+	margin-top: 40px;
+}
+
+#new {
+
+	width:35%;
+	position: relative;
+	padding: 5px 10px;
+	border-radius:25px;
+}
+
+#new:hover {
+	background: green;
+}
+
+#coworking {
+	width: 80%;
+}
+
+.description {
+	font-family: Arial, Helvetica;
+	font-size: 20px;
+}
+.login-form{
+	margin-right: 30px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.header2 {
+	font-family: Arial, Helvetica;
+	font-size: 30px;
+
+}
+
+.signup {
+
+	margin-top: 15px;
+	
+}
