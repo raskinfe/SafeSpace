@@ -1,13 +1,13 @@
 body{
-	background: #d4dddd;;
+	background: #d4dddd;
 }
 
 .logo {
 	
 	float: left;
-    width: 90%;
+    width: 100%;
     background: white;
-    margin-left: 5%;
+   
     margin-top: 30px;
     border-radius: 25px;
 
@@ -32,10 +32,10 @@ body{
 .form{
 	
 	float: left;
-    width: 90%;
+    width: 100%;
     background: white;
-    margin-left: 5%;
-    margin-top: 30px;
+    
+    margin-top: 20px;
     height: 480px;
     margin-bottom: 20px;
     border-radius: 25px;
@@ -70,7 +70,7 @@ input[type="text"] {
 #forget {
 
 	width: 200px;
-	margin-left: 110px;
+	margin-left: 140px;
 	border:none;
 	font-family: Arial, Helvetica;
 	font-style: normal;

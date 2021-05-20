@@ -11,7 +11,7 @@ function authenticate() {
 
 
 function check(password, username) {
-  if (username == "" && password =="") {
+  if (username == "" || password =="") {
 
     return false;
   }
@@ -23,7 +23,7 @@ function check(password, username) {
 function status() {
   if (loggedIn) {
 
-    var url  ="../tabs.html";
+    var url = "../www/html/tabs.html";
     window.open(url);
   }
   else {
