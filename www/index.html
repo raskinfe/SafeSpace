@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/log.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/log.js"></script>
@@ -31,7 +32,7 @@
 
             <div class="signup">
                 <br><label id="signup">Need an account? </label>
-                <button id="new">Sign up</button>
+                <button id="new" onclick="signup()">Sign up</button>
             </div>
         </form>
     </section>
@@ -47,5 +48,11 @@
     
 </section>
 
+<script type="text/javascript">
+    function signup() {
+        var url = "../www/html/signup.html?type=abc";
+        window.open(url);
+    }
+</script>
 </body>
 </html>
